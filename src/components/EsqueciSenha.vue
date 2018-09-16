@@ -1,5 +1,5 @@
 <template>
- 
+ <div>esqueci</div>
 </template>
 
 <script>
@@ -9,11 +9,12 @@ export default {
   },
   data: function(){
     return{
-     
+      usuario : null,
+      senha : null
     }
   },
   methods: {
-   
+    
   }
   
 }

@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <Login />
+    <router-link to="/esqueci-senha">Esqueci Senha</router-link>
+    <router-link to="/login">Login</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-import Login from './components/login.vue'
+// import Login from './components/login.vue'
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
@@ -15,7 +16,7 @@ import 'bootstrap-vue/dist/bootstrap-vue.css'
 export default {
   name: 'app',
   components: {
-    Login
+    
   }
 }
 </script>
