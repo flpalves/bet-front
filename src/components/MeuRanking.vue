@@ -1,13 +1,12 @@
 <template>
   <div>
-      <b-card title="Meus Pontos"
-              sub-title="Pontuação total">
+      <b-card title="Ranking Geral">
           <p class="card-text">
-              <strong>100</strong> pontos nas últimas 10 rodadas
+              Você ocupa a <strong>10</strong>ª colocação no ranking geral
           </p>
           
           <b-link href="#"
-                  class="card-link">Ver últimas rodadas</b-link>
+                  class="card-link">Ver ranking completo</b-link>
       </b-card>
   </div>
 </template>

@@ -7,9 +7,9 @@ Vue.use(BootstrapVue);
 Vue.use(VueRouter);
 Vue.config.productionTip = false;
 
-import Login from './components/Login.vue';
-import EsqueciSenha from './components/EsqueciSenha.vue';
-import Home from './components/Home.vue';
+import Login from './pages/Login.vue';
+import EsqueciSenha from './pages/EsqueciSenha.vue';
+import Home from './pages/Home.vue';
 
 const routes = [
   {path:'*', redirect: '/'},
