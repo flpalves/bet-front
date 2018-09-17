@@ -6,17 +6,19 @@
             </b-col>
         </b-row>
         <b-row>
-            <b-col md="6">
-                <ApostarJogo />
-                <ApostarJogo />
+            <b-col md="4">
                 <ApostarJogo />
                 <ApostarJogo />
                 <ApostarJogo />
                 <ApostarJogo />
             </b-col>
-            <b-col md="6">
+            <b-col md="4">
                 <ApostarJogo />
                 <ApostarJogo />
+                <ApostarJogo />
+                <ApostarJogo />
+            </b-col>
+            <b-col md="4">
                 <ApostarJogo />
                 <ApostarJogo />
                 <ApostarJogo />
